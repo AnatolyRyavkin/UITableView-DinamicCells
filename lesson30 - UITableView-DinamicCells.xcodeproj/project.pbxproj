@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD618A45229AD2C40073429D /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD618A44229AD2C40073429D /* ARViewController.m */; };
+		FD7207DD22980D9B00026397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7207DC22980D9B00026397 /* AppDelegate.m */; };
+		FD7207E322980D9B00026397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7207E122980D9B00026397 /* Main.storyboard */; };
+		FD7207E522980D9C00026397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7207E422980D9C00026397 /* Assets.xcassets */; };
+		FD7207E822980D9C00026397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7207E622980D9C00026397 /* LaunchScreen.storyboard */; };
+		FD7207EB22980D9C00026397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7207EA22980D9C00026397 /* main.m */; };
+		FDAB26B9229DC5B100254C99 /* AVTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAB26B8229DC5B100254C99 /* AVTableViewHeaderFooterView.m */; };
+		FDAD7ABD229BBCC700F549F2 /* cat1.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7ABC229BBCC700F549F2 /* cat1.png */; };
+		FDAD7AC0229BBCD400F549F2 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7ABE229BBCD400F549F2 /* cat2.png */; };
+		FDAD7AC1229BBCD400F549F2 /* cat3.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7ABF229BBCD400F549F2 /* cat3.png */; };
+		FDAD7AC3229C10CA00F549F2 /* bk.png in Resources */ = {isa = PBXBuildFile; fileRef = FDAD7AC2229C10CA00F549F2 /* bk.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD618A43229AD2C40073429D /* ARViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARViewController.h; sourceTree = "<group>"; };
+		FD618A44229AD2C40073429D /* ARViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARViewController.m; sourceTree = "<group>"; };
+		FD7207D822980D9B00026397 /* lesson30 - UITableView-DinamicCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lesson30 - UITableView-DinamicCells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7207DB22980D9B00026397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD7207DC22980D9B00026397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD7207E222980D9B00026397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD7207E422980D9C00026397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD7207E722980D9C00026397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD7207E922980D9C00026397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD7207EA22980D9C00026397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDAB26B7229DC5B100254C99 /* AVTableViewHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		FDAB26B8229DC5B100254C99 /* AVTableViewHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		FDAD7ABC229BBCC700F549F2 /* cat1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat1.png; path = ../../../cat1.png; sourceTree = "<group>"; };
+		FDAD7ABE229BBCD400F549F2 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat2.png; path = ../../../cat2.png; sourceTree = "<group>"; };
+		FDAD7ABF229BBCD400F549F2 /* cat3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat3.png; sourceTree = "<group>"; };
+		FDAD7AC2229C10CA00F549F2 /* bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bk.png; path = ../../../bk.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD7207D522980D9B00026397 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD7207CF22980D9B00026397 = {
+			isa = PBXGroup;
+			children = (
+				FD7207DA22980D9B00026397 /* lesson30 - UITableView-DinamicCells */,
+				FD7207D922980D9B00026397 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD7207D922980D9B00026397 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7207D822980D9B00026397 /* lesson30 - UITableView-DinamicCells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD7207DA22980D9B00026397 /* lesson30 - UITableView-DinamicCells */ = {
+			isa = PBXGroup;
+			children = (
+				FDAD7ABC229BBCC700F549F2 /* cat1.png */,
+				FDAD7ABE229BBCD400F549F2 /* cat2.png */,
+				FDAD7ABF229BBCD400F549F2 /* cat3.png */,
+				FDAD7AC2229C10CA00F549F2 /* bk.png */,
+				FD7207DB22980D9B00026397 /* AppDelegate.h */,
+				FD7207DC22980D9B00026397 /* AppDelegate.m */,
+				FD618A43229AD2C40073429D /* ARViewController.h */,
+				FD618A44229AD2C40073429D /* ARViewController.m */,
+				FDAB26B7229DC5B100254C99 /* AVTableViewHeaderFooterView.h */,
+				FDAB26B8229DC5B100254C99 /* AVTableViewHeaderFooterView.m */,
+				FD7207E122980D9B00026397 /* Main.storyboard */,
+				FD7207E422980D9C00026397 /* Assets.xcassets */,
+				FD7207E622980D9C00026397 /* LaunchScreen.storyboard */,
+				FD7207E922980D9C00026397 /* Info.plist */,
+				FD7207EA22980D9C00026397 /* main.m */,
+			);
+			path = "lesson30 - UITableView-DinamicCells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD7207D722980D9B00026397 /* lesson30 - UITableView-DinamicCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7207EE22980D9C00026397 /* Build configuration list for PBXNativeTarget "lesson30 - UITableView-DinamicCells" */;
+			buildPhases = (
+				FD7207D422980D9B00026397 /* Sources */,
+				FD7207D522980D9B00026397 /* Frameworks */,
+				FD7207D622980D9B00026397 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lesson30 - UITableView-DinamicCells";
+			productName = "lesson30 - UITableView-DinamicCells";
+			productReference = FD7207D822980D9B00026397 /* lesson30 - UITableView-DinamicCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD7207D022980D9B00026397 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AnatolyRyavkin;
+				TargetAttributes = {
+					FD7207D722980D9B00026397 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FD7207D322980D9B00026397 /* Build configuration list for PBXProject "lesson30 - UITableView-DinamicCells" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD7207CF22980D9B00026397;
+			productRefGroup = FD7207D922980D9B00026397 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD7207D722980D9B00026397 /* lesson30 - UITableView-DinamicCells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD7207D622980D9B00026397 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDAD7ABD229BBCC700F549F2 /* cat1.png in Resources */,
+				FDAD7AC0229BBCD400F549F2 /* cat2.png in Resources */,
+				FDAD7AC1229BBCD400F549F2 /* cat3.png in Resources */,
+				FD7207E822980D9C00026397 /* LaunchScreen.storyboard in Resources */,
+				FD7207E522980D9C00026397 /* Assets.xcassets in Resources */,
+				FD7207E322980D9B00026397 /* Main.storyboard in Resources */,
+				FDAD7AC3229C10CA00F549F2 /* bk.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD7207D422980D9B00026397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7207EB22980D9C00026397 /* main.m in Sources */,
+				FDAB26B9229DC5B100254C99 /* AVTableViewHeaderFooterView.m in Sources */,
+				FD618A45229AD2C40073429D /* ARViewController.m in Sources */,
+				FD7207DD22980D9B00026397 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD7207E122980D9B00026397 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7207E222980D9B00026397 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD7207E622980D9C00026397 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD7207E722980D9C00026397 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD7207EC22980D9C00026397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD7207ED22980D9C00026397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD7207EF22980D9C00026397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = "lesson30 - UITableView-DinamicCells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AnatatolyRyavkin.lesson30---UITableView-DinamicCells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD7207F022980D9C00026397 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92NKZ7998L;
+				INFOPLIST_FILE = "lesson30 - UITableView-DinamicCells/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AnatatolyRyavkin.lesson30---UITableView-DinamicCells";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD7207D322980D9B00026397 /* Build configuration list for PBXProject "lesson30 - UITableView-DinamicCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7207EC22980D9C00026397 /* Debug */,
+				FD7207ED22980D9C00026397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7207EE22980D9C00026397 /* Build configuration list for PBXNativeTarget "lesson30 - UITableView-DinamicCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD7207EF22980D9C00026397 /* Debug */,
+				FD7207F022980D9C00026397 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD7207D022980D9B00026397 /* Project object */;
+}

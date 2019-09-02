@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:&#x41a;&#x43e;&#x442;&#x435;&#x308;&#x43d;&#x43e;&#x43a; PNG - 1024x768.png">
+   </FileRef>
+   <FileRef
+      location = "group:&#x41a;&#x43e;&#x448;&#x43a;&#x430; &#x43d;&#x430; &#x43f;&#x440;&#x43e;&#x437;&#x440;&#x430;&#x447;&#x43d;&#x43e;&#x43c; &#x444;&#x43e;&#x43d;&#x435; - 1024x768.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
